@@ -1,3 +1,3 @@
-db.produtos.countDocuments({
+db.produtos.updateMany({
   ingredientes: { $size: 4 },
 });
